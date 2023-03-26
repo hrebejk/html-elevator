@@ -1,0 +1,85 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            .digit {
+                width: 100px;                
+            }
+            
+            .hVoid {
+                height: 10px;
+                width: 10px;
+            }
+            
+            .hBar {
+                width: 80px;                
+                height: 10px;
+                background-color: black;                
+            }
+            
+            .hEBar {
+                width: 80px;                
+                height: 10px;
+            }
+            
+            .vVoid {
+                height: 10px;
+                width: 10px;
+            }
+            
+            .vBar {
+                background-color: black;
+                height: 35px;
+                width: 10px;
+            }
+            
+            .vEBar {
+                height: 35px;
+                width: 10px;
+            }
+                        
+            
+        </style>
+    </head>
+    <body>
+        <h2>HTML Elevator Ride</h2>
+                
+        <table class="digit">
+            <!-- top -->
+            <tr>
+                <td class="hVoid"></td>
+                <td class="hBar"></td>
+                <td class="hVoid"></td>
+            </tr>
+            <tr>
+                <td class="vBar"></td>
+                <td class="vVoid"></td>
+                <td class="vBar"></td>
+            </tr>
+            <!-- middle -->
+            <tr>
+                <td class="hVoid"></td>
+                <td class="hEBar"></td>
+                <td class="hVoid"></td>                
+            </tr>
+            <!-- bottom -->
+            <tr>
+                <td class="vBar"></td>
+                <td class="vVoid"></td>
+                <td class="vBar"></td>
+            </tr>
+            <tr>
+                <td class="hVoid"></td>
+                <td class="hBar"></td>
+                <td class="hVoid"></td>
+            </tr>
+            
+        </table>
+    </body>
+</html>
